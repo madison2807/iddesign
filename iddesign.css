@@ -1,0 +1,172 @@
+/* logo iddesign */
+header{
+    float: bottom;
+}
+
+.image{
+    max-width: 100%;
+    padding-left: 150px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+
+/* onglet */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #29b6f6;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border-style: solid;
+}
+
+li {
+    float: left;
+    border-style: solid;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #052e84;
+}
+
+.active {
+    background-color: #ef7300;
+}
+
+/* bg de la page */
+body{
+    font-size: 18px;
+    background: linear-gradient(#ff5d00, #ff8800);
+}
+
+
+/* première page */
+.p1{
+    font-family: "Bitstream Charter";
+    color: white;
+    font-family: monospace, sans-serif;
+}
+
+.paragraphe{
+    display: flex;
+    background-color: darkblue;
+    box-shadow: 5px 4px 1px 3px black;
+    font-family: monospace, sans-serif;
+    margin: 13px 12px 12px 10px;
+}
+
+.video{
+    display:inline-flex ;
+    margin-top: 40px;
+}
+
+.p4{
+    background-color: darkblue;
+    box-shadow: 5px 4px 1px 3px black;
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: monospace, sans-serif;
+}
+
+
+/* Deuxième page */
+div.gallery{
+    margin: 5px;
+    border: 3px solid #000000;
+    width: 400px;
+    display: inline-block;
+    background: linear-gradient(#0346ff, #a0a7f1);
+
+}
+
+div.gallery:hover {
+    border: 2px solid #001240;
+}
+
+div.gallery img {
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Troisième page */
+img{
+   max-width: 100%;
+}
+
+.reseau, .contact{
+    display: flex;
+}
+
+
+.reseau{
+    background: linear-gradient(#0346ff, #a0a7f1);
+    background-color: #29b6f6;
+    box-shadow: 2px 3px 5px 2px blue;
+    font-family: monospace, sans-serif;
+    display: block;
+    margin-top: 30px;
+    text-align: -moz-center;
+}
+
+.contact{
+    background: linear-gradient(#0346ff, #a0a7f1);
+    background-color: #29b6f6;
+    box-shadow: 2px 3px 5px 2px blue;
+    font-family: monospace, sans-serif;
+    display: block;
+    margin-top: 30px;
+    text-align: -moz-center;
+}
+
+.mail{
+    text-align: start;
+    font-size: x-large;
+    width: 400px;
+    height: 400px;
+    font-family: monospace, sans-serif;
+    text-decoration: none;
+}
+
+
+
+/*formulaire*/
+
+.carte{
+    display: flex;
+    text-align: -moz-center;
+    background: linear-gradient(#0346ff, #a0a7f1);
+    margin: 13px 12px 12px 10px;
+    justify-content: space-between;
+}
+
+iframe{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+form{
+    font-size: x-large;
+    text-align: initial;
+    font-family: monospace, sans-serif ;
+}
+
+.texte{
+    font-size: x-large;
+}
